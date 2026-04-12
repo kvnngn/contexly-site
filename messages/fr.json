@@ -22,7 +22,13 @@
     "seeHow": "Voir comment ça marche",
     "browserBar": "x.com — avec Contexly",
     "contextButton": "Contexte",
-    "contextNote": "Note de contexte"
+    "contextNote": "Note de contexte",
+    "demoAuthor": "Alex",
+    "demoHandle": "@alex_posts",
+    "demoTweet": "La Grande Muraille de Chine est la seule structure artificielle visible depuis l'espace !",
+    "demoContextBody": "C'est une idee recue. Selon la NASA, la Grande Muraille n'est pas visible a l'oeil nu depuis l'orbite terrestre basse. Les astronautes l'ont confirme a plusieurs reprises depuis les premieres missions spatiales.",
+    "demoSource1": "nasa.gov",
+    "demoSource2": "snopes.com"
   },
   "comparatif": {
     "unlikeGrok": "Contrairement à Grok",

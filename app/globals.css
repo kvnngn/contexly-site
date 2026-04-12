@@ -5,7 +5,7 @@
   --bg-card: #112118;
   --bg-elevated: #1b4332;
   --text-primary: #f0f4f1;
-  --text-secondary: #8a9b90;
+  --text-secondary: #a8b8ae;
   --accent: #10b981;
   --accent-hover: #34d399;
   --border: #2d3f34;
@@ -27,6 +27,10 @@ body {
   background: var(--bg-primary);
   color: var(--text-primary);
   font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 ::selection {

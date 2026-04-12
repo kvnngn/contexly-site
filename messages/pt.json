@@ -22,7 +22,13 @@
     "seeHow": "Veja como funciona",
     "browserBar": "x.com — com Contexly",
     "contextButton": "Contexto",
-    "contextNote": "Nota de Contexto"
+    "contextNote": "Nota de Contexto",
+    "demoAuthor": "Alex",
+    "demoHandle": "@alex_posts",
+    "demoTweet": "A Grande Muralha da China e a unica estrutura feita pelo homem visivel do espaco!",
+    "demoContextBody": "Este e um mito comum. Segundo a NASA, a Grande Muralha nao e visivel a olho nu da orbita terrestre baixa. Astronautas confirmaram isso varias vezes desde as primeiras missoes espaciais.",
+    "demoSource1": "nasa.gov",
+    "demoSource2": "snopes.com"
   },
   "comparatif": {
     "unlikeGrok": "Diferente do Grok",

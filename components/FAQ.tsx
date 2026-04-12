@@ -12,7 +12,8 @@ function FAQItem({ q, a }: { q: string; a: string }) {
     <div className="border-b border-border">
       <button
         onClick={() => setOpen(!open)}
-        className="flex w-full items-center justify-between py-5 text-left"
+        aria-expanded={open}
+        className="flex w-full cursor-pointer items-center justify-between py-5 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-card"
       >
         <span className="pr-4 text-base font-medium">{q}</span>
         <ChevronDown

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "./Logo";
 
-const CHROME_STORE_URL = "#";
+import { CHROME_STORE_URL, GITHUB_URL } from "@/lib/config";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -17,7 +17,7 @@ export function Footer() {
           <p className="text-sm text-text-secondary">{t("tagline")}</p>
           <a
             href={CHROME_STORE_URL}
-            className="rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-bg-primary transition-colors hover:bg-accent-hover"
+            className="rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-bg-primary transition-colors hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-card"
           >
             {t("install")}
           </a>
@@ -37,7 +37,7 @@ export function Footer() {
             </Link>
             <span>·</span>
             <a
-              href="https://github.com/kvnngn/contexly"
+              href={GITHUB_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-text-primary"

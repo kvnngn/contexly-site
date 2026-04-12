@@ -22,7 +22,13 @@
     "seeHow": "查看工作原理",
     "browserBar": "x.com — 使用Contexly",
     "contextButton": "背景",
-    "contextNote": "背景注释"
+    "contextNote": "背景注释",
+    "demoAuthor": "Alex",
+    "demoHandle": "@alex_posts",
+    "demoTweet": "长城是唯一能从太空看到的人造建筑！",
+    "demoContextBody": "这是一个常见的误解。据NASA称，从近地轨道用肉眼无法看到长城。自早期太空任务以来，宇航员已多次证实了这一点。",
+    "demoSource1": "nasa.gov",
+    "demoSource2": "snopes.com"
   },
   "comparatif": {
     "unlikeGrok": "不同于Grok",

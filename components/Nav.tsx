@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "./Logo";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { CHROME_STORE_URL, GITHUB_URL } from "@/lib/config";
 
 function GithubIcon({ className }: { className?: string }) {
   return (
@@ -12,9 +13,6 @@ function GithubIcon({ className }: { className?: string }) {
     </svg>
   );
 }
-
-const CHROME_STORE_URL = "#";
-const GITHUB_URL = "https://github.com/kvnngn/contexly";
 
 export function Nav() {
   const t = useTranslations("nav");
@@ -31,14 +29,15 @@ export function Nav() {
             href={GITHUB_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-sm text-text-secondary transition-colors hover:text-text-primary"
+            aria-label={t("github")}
+            className="flex items-center gap-1.5 text-sm text-text-secondary transition-colors hover:text-text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:rounded-md"
           >
             <GithubIcon className="h-4 w-4" />
             <span className="hidden sm:inline">{t("github")}</span>
           </a>
           <a
             href={CHROME_STORE_URL}
-            className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-bg-primary transition-colors hover:bg-accent-hover"
+            className="rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-bg-primary transition-colors hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-elevated"
           >
             {t("install")}
           </a>

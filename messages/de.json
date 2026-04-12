@@ -22,7 +22,13 @@
     "seeHow": "So funktioniert's",
     "browserBar": "x.com — mit Contexly",
     "contextButton": "Kontext",
-    "contextNote": "Kontextnotiz"
+    "contextNote": "Kontextnotiz",
+    "demoAuthor": "Alex",
+    "demoHandle": "@alex_posts",
+    "demoTweet": "Die Chinesische Mauer ist das einzige von Menschen gebaute Bauwerk, das aus dem Weltraum sichtbar ist!",
+    "demoContextBody": "Dies ist ein weit verbreiteter Irrtum. Laut NASA ist die Chinesische Mauer mit blossem Auge aus der niedrigen Erdumlaufbahn nicht sichtbar. Astronauten haben dies seit den fruehen Weltraummissionen mehrfach bestaetigt.",
+    "demoSource1": "nasa.gov",
+    "demoSource2": "snopes.com"
   },
   "comparatif": {
     "unlikeGrok": "Anders als Grok",

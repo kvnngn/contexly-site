@@ -22,7 +22,13 @@
     "seeHow": "使い方を見る",
     "browserBar": "x.com — Contexlyと一緒に",
     "contextButton": "コンテキスト",
-    "contextNote": "コンテキストノート"
+    "contextNote": "コンテキストノート",
+    "demoAuthor": "Alex",
+    "demoHandle": "@alex_posts",
+    "demoTweet": "万里の長城は宇宙から見える唯一の人工構造物です！",
+    "demoContextBody": "これはよくある誤解です。NASAによると、万里の長城は低軌道から肉眼では見えません。宇宙飛行士たちは初期の宇宙ミッション以来、これを何度も確認しています。",
+    "demoSource1": "nasa.gov",
+    "demoSource2": "snopes.com"
   },
   "comparatif": {
     "unlikeGrok": "Grokとは異なり",

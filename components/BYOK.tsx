@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "motion/react";
 import { Key } from "lucide-react";
 
-const CHROME_STORE_URL = "#";
+import { CHROME_STORE_URL } from "@/lib/config";
 
 export function BYOK() {
   const t = useTranslations("byok");
@@ -25,7 +25,7 @@ export function BYOK() {
         <p className="mt-4 text-text-secondary">{t("description")}</p>
         <a
           href={CHROME_STORE_URL}
-          className="mt-8 inline-block rounded-full bg-accent px-6 py-3 text-sm font-semibold text-bg-primary transition-all hover:scale-[1.02] hover:bg-accent-hover"
+          className="mt-8 inline-block rounded-full bg-accent px-6 py-3 text-sm font-semibold text-bg-primary transition-all hover:scale-[1.02] hover:bg-accent-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-bg-primary"
         >
           {t("install")}
         </a>

@@ -6,6 +6,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { Analytics } from "@vercel/analytics/next";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
+import { ReducedMotionProvider } from "@/components/ReducedMotionProvider";
 import { locales, defaultLocale } from "@/i18n/config";
 import "../globals.css";
 
@@ -80,9 +81,17 @@ export default async function RootLayout({
     <html lang={locale} className={`${inter.variable} antialiased`}>
       <body className="flex min-h-screen flex-col bg-bg-primary text-text-primary">
         <NextIntlClientProvider messages={messages}>
-          <Nav />
-          <main className="flex-1 pt-16">{children}</main>
-          <Footer />
+          <ReducedMotionProvider>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-bg-primary"
+            >
+              Skip to main content
+            </a>
+            <Nav />
+            <main id="main-content" className="flex-1 pt-16">{children}</main>
+            <Footer />
+          </ReducedMotionProvider>
         </NextIntlClientProvider>
         <Analytics />
       </body>
