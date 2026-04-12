@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- No background - transparent -->
+  <!-- Left bracket - emerald -->
+  <path d="M16 18h22v14H30v64h8v14H16z" fill="#10b981"/>
+  <!-- Right bracket - emerald -->
+  <path d="M112 18H90v14h8v64h-8v14h22z" fill="#10b981"/>
+  <!-- C as path - dark green -->
+  <path d="M80 40a28 28 0 1 0 0 48" stroke="#1b4332" stroke-width="13" stroke-linecap="round" fill="none"/>
+</svg>
