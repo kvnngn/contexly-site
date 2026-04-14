@@ -66,6 +66,50 @@ export default async function PrivacyPage({
 
         <section>
           <h2 className="text-lg font-semibold text-text-primary">
+            {t("dataFlowTitle")}
+          </h2>
+          <p className="mt-3">{t("dataFlowDesc")}</p>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-text-primary">
+            {t("localDataTitle")}
+          </h2>
+          <p className="mt-3">{t("localDataDesc")}</p>
+          <ul className="mt-3 list-inside list-disc space-y-2">
+            <li>{t("localData1")}</li>
+            <li>{t("localData2")}</li>
+            <li>{t("localData3")}</li>
+            <li>{t("localData4")}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-text-primary">
+            {t("transmittedTitle")}
+          </h2>
+          <p className="mt-3">{t("transmittedDesc")}</p>
+          <ul className="mt-3 list-inside list-disc space-y-2">
+            <li>{t("transmitted1")}</li>
+            <li>{t("transmitted2")}</li>
+            <li>{t("transmitted3")}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-text-primary">
+            {t("notCollectedTitle")}
+          </h2>
+          <ul className="mt-3 list-inside list-disc space-y-2">
+            <li>{t("notCollected1")}</li>
+            <li>{t("notCollected2")}</li>
+            <li>{t("notCollected3")}</li>
+            <li>{t("notCollected4")}</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-lg font-semibold text-text-primary">
             {t("thirdPartyTitle")}
           </h2>
           <ul className="mt-3 list-inside list-disc space-y-3">
@@ -74,12 +118,6 @@ export default async function PrivacyPage({
                 {t("thirdPartyLLM")}
               </strong>{" "}
               — {t("thirdPartyLLMDesc")}
-            </li>
-            <li>
-              <strong className="text-text-primary">
-                {t("thirdPartyTavily")}
-              </strong>{" "}
-              — {t("thirdPartyTavilyDesc")}
             </li>
             <li>
               <strong className="text-text-primary">
