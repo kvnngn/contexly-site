@@ -23,12 +23,12 @@
     "browserBar": "x.com — 使用Contexly",
     "contextButton": "背景",
     "contextNote": "背景注释",
-    "demoAuthor": "Alex",
-    "demoHandle": "@alex_posts",
-    "demoTweet": "长城是唯一能从太空看到的人造建筑！",
-    "demoContextBody": "这是一个常见的误解。据NASA称，从近地轨道用肉眼无法看到长城。自早期太空任务以来，宇航员已多次证实了这一点。",
-    "demoSource1": "nasa.gov",
-    "demoSource2": "snopes.com"
+    "demoAuthor": "TechBro Daily",
+    "demoHandle": "@techbro_daily",
+    "demoTweet": "OpenAI刚刚确认GPT-5将在2026年前取代80%的工作岗位！",
+    "demoContextBody": "这一说法具有误导性。OpenAI并未发表过此类声明。「80%」这个数字来自对高盛报告的错误引用，该报告估计AI可能影响某些工作任务——而非消除就业岗位。多位经济学家已对这一解读提出质疑。",
+    "demoSource1": "reuters.com",
+    "demoSource2": "goldmansachs.com"
   },
   "comparatif": {
     "unlikeGrok": "不同于Grok",

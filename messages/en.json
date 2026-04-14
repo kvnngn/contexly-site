@@ -23,12 +23,12 @@
     "browserBar": "x.com — with Contexly",
     "contextButton": "Context",
     "contextNote": "Context Note",
-    "demoAuthor": "Alex",
-    "demoHandle": "@alex_posts",
-    "demoTweet": "The Great Wall of China is the only man-made structure visible from space!",
-    "demoContextBody": "This is a common misconception. According to NASA, the Great Wall is not visible from low Earth orbit with the naked eye. Astronauts have confirmed this multiple times since the early space missions.",
-    "demoSource1": "nasa.gov",
-    "demoSource2": "snopes.com"
+    "demoAuthor": "TechBro Daily",
+    "demoHandle": "@techbro_daily",
+    "demoTweet": "OpenAI just confirmed GPT-5 will replace 80% of jobs by 2026!",
+    "demoContextBody": "This claim is misleading. OpenAI has not made such a statement. The \"80%\" figure comes from a misquoted Goldman Sachs report, which estimated AI could affect certain tasks — not eliminate jobs entirely. Multiple economists have pushed back on this interpretation.",
+    "demoSource1": "reuters.com",
+    "demoSource2": "goldmansachs.com"
   },
   "comparatif": {
     "unlikeGrok": "Unlike Grok",

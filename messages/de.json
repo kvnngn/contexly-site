@@ -23,12 +23,12 @@
     "browserBar": "x.com — mit Contexly",
     "contextButton": "Kontext",
     "contextNote": "Kontextnotiz",
-    "demoAuthor": "Alex",
-    "demoHandle": "@alex_posts",
-    "demoTweet": "Die Chinesische Mauer ist das einzige von Menschen gebaute Bauwerk, das aus dem Weltraum sichtbar ist!",
-    "demoContextBody": "Dies ist ein weit verbreiteter Irrtum. Laut NASA ist die Chinesische Mauer mit blossem Auge aus der niedrigen Erdumlaufbahn nicht sichtbar. Astronauten haben dies seit den fruehen Weltraummissionen mehrfach bestaetigt.",
-    "demoSource1": "nasa.gov",
-    "demoSource2": "snopes.com"
+    "demoAuthor": "TechBro Daily",
+    "demoHandle": "@techbro_daily",
+    "demoTweet": "OpenAI hat gerade bestätigt, dass GPT-5 bis 2026 80% der Arbeitsplätze ersetzen wird!",
+    "demoContextBody": "Diese Behauptung ist irreführend. OpenAI hat keine solche Aussage gemacht. Die «80%»-Zahl stammt aus einem falsch zitierten Goldman-Sachs-Bericht, der schätzte, dass KI bestimmte Aufgaben beeinflussen könnte — nicht Arbeitsplätze beseitigen. Mehrere Ökonomen haben diese Interpretation zurückgewiesen.",
+    "demoSource1": "reuters.com",
+    "demoSource2": "goldmansachs.com"
   },
   "comparatif": {
     "unlikeGrok": "Anders als Grok",

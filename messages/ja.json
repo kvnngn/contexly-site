@@ -23,12 +23,12 @@
     "browserBar": "x.com — Contexlyと一緒に",
     "contextButton": "コンテキスト",
     "contextNote": "コンテキストノート",
-    "demoAuthor": "Alex",
-    "demoHandle": "@alex_posts",
-    "demoTweet": "万里の長城は宇宙から見える唯一の人工構造物です！",
-    "demoContextBody": "これはよくある誤解です。NASAによると、万里の長城は低軌道から肉眼では見えません。宇宙飛行士たちは初期の宇宙ミッション以来、これを何度も確認しています。",
-    "demoSource1": "nasa.gov",
-    "demoSource2": "snopes.com"
+    "demoAuthor": "TechBro Daily",
+    "demoHandle": "@techbro_daily",
+    "demoTweet": "OpenAIがGPT-5は2026年までに80%の仕事を置き換えると正式発表！",
+    "demoContextBody": "この主張は誤解を招くものです。OpenAIはそのような声明を出していません。「80%」という数字はゴールドマン・サックスのレポートの誤引用に由来し、AIが特定の業務に影響を与える可能性を示したもので、雇用を消滅させるとは述べていません。複数の経済学者がこの解釈に異議を唱えています。",
+    "demoSource1": "reuters.com",
+    "demoSource2": "goldmansachs.com"
   },
   "comparatif": {
     "unlikeGrok": "Grokとは異なり",

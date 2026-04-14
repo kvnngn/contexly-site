@@ -23,12 +23,12 @@
     "browserBar": "x.com — con Contexly",
     "contextButton": "Contexto",
     "contextNote": "Nota de Contexto",
-    "demoAuthor": "Alex",
-    "demoHandle": "@alex_posts",
-    "demoTweet": "La Gran Muralla China es la unica estructura hecha por el hombre visible desde el espacio!",
-    "demoContextBody": "Este es un mito comun. Segun la NASA, la Gran Muralla no es visible a simple vista desde la orbita terrestre baja. Los astronautas lo han confirmado multiples veces desde las primeras misiones espaciales.",
-    "demoSource1": "nasa.gov",
-    "demoSource2": "snopes.com"
+    "demoAuthor": "TechBro Daily",
+    "demoHandle": "@techbro_daily",
+    "demoTweet": "OpenAI acaba de confirmar que GPT-5 reemplazará el 80% de los empleos para 2026!",
+    "demoContextBody": "Esta afirmación es engañosa. OpenAI no ha hecho tal declaración. La cifra del «80%» proviene de una cita distorsionada de un informe de Goldman Sachs, que estimaba que la IA podría afectar ciertas tareas, no eliminar empleos. Varios economistas han cuestionado esta interpretación.",
+    "demoSource1": "reuters.com",
+    "demoSource2": "goldmansachs.com"
   },
   "comparatif": {
     "unlikeGrok": "A diferencia de Grok",
